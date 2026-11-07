@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 450.635,
+    "vectorized_ms": 5.87,
+    "speedup": 76.77
+  },
+  "threads": {
+    "1": 2139.696,
+    "2": 3327.864,
+    "4": 2584.498,
+    "8": 2830.569
+  },
+  "devices": {
+    "cpu_ms": 421586.3,
+    "gpu_ms": 15036.5
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4533,
+    "param_count": 4935680
+  },
+  "sample": "\nABELLA:\nClift be the here? Come, my lord; brought take?\n\nSEBASTIAN:\nWhy, a do\nMero_y fire this the foots: if my Juliet.\n\nLUCIO:\nBrank'st Of of hard?\nNay, 'for you sir, who thy hone! 'by thought hot?\n\n",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecomgpt-iban-eurecomgpt/model.safetensors"
+  }
+}
